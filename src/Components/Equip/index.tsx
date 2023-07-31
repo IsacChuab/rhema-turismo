@@ -52,7 +52,7 @@ export const Equip = () => {
                             Formada em Direito e Influencer de Viagens, já visitou diversos 
                             países ao redor do mundo compartilhando dicas de viagem, 
                             gastronomia e hospedagem. Fluente em Inglês, fala 4 idiomas, 
-                            e é a responsável pela elaboração de etinerários, atendimento ao 
+                            e é a responsável pela elaboração de itinerários, atendimento ao 
                             cliente, tramitação de todos os pacotes oferecidos, marketing, 
                             vídeo e criação de conteúdo das viagens.
                         </h3>
