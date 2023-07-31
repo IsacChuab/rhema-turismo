@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './Hotel.module.css';
-import hotelPhoto from '../../../public/images/hotel.jpg';
+import hotelPhoto from '../../../public/images/photo-9.jpeg';
 import gastronomy from '../../../public/images/gastronomia.jpg';
 import passport from '../../../public/images/passaporte.jpg';
 import tour from '../../../public/images/tour.png';
