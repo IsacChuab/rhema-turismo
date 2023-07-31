@@ -1,0 +1,158 @@
+.boxHotelAndMore {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.boxHotelAndMore h1 {
+  margin-left: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentGrid {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+}
+
+.contentGridInverse {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+}
+
+
+.contentDescription {
+  width: 35%;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.contentDescriptionInverse {
+  width: 35%;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.contentDescription h3 {
+  margin-top: 3rem;
+}
+
+.bellowContent {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.smallContent {
+  display: flex;
+  width: 45%;
+}
+
+.smallContentDescription {
+  margin-left: 1rem;
+}
+
+.smallContentDescription h2 {
+  margin-top: 1rem;
+}
+
+.smallContentDescription h3 {
+  margin-top: 1rem;
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contentDescription {
+    width: 40%;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .bellowContent {
+    justify-content: space-around;
+    width: 96%;
+  }
+
+  .smallContent {
+    display: flex;
+    width: 49%;
+  }
+
+  .smallContentDescription h2 {
+    margin-top: 0.5rem;
+    font-size: 20px;
+  }
+
+  .smallContentDescription h3 {
+    margin-top: 0.5rem;
+    font-size: 15px;
+  }
+}
+
+/* celulares */
+@media (max-width: 767px) {
+  .boxHotelAndMore {
+    margin-top: 1rem;
+  }
+
+  .contentGrid {
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  .contentDescription {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    width: 95%;
+  }
+
+  .contentDescription h2 {
+    font-size: 14px;
+  }
+
+  .contentDescription h3 {
+    margin-top: 1rem;
+    font-size: 12px;
+  }
+
+  .contentGridInverse {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .bellowContent {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+  }
+
+  .smallContent {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .smallContentDescription h2 {
+    font-size: 14px;
+    margin-top: 0.3rem;
+  }
+
+  .smallContentDescription h3 {
+    margin-top: 0.3rem;
+    font-size: 12px;
+  }
+}

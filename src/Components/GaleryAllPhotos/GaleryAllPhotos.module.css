@@ -1,0 +1,30 @@
+.boxModalGalery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img {
+  margin: 0 1rem 1rem 0;
+}
+
+/* celulares */
+@media (max-width: 767px) { 
+  .boxGalery .photos {
+    flex-wrap: wrap;
+  }
+
+  .title h1 {
+    font-size: 24px;
+  }
+}

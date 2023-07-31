@@ -1,0 +1,40 @@
+.boxGalery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.title a {
+  color: #2563EB;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* celulares */
+@media (max-width: 767px) { 
+  .boxGalery .photos {
+    flex-wrap: wrap;
+  }
+
+  .title h1 {
+    font-size: 24px;
+  }
+}

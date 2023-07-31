@@ -1,0 +1,86 @@
+.boxBenefits {
+  height: 23rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.containerBenefits {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.fstLineBenefits {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.sndLineBenefits {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) { 
+  .boxBenefits {
+    height: 18rem;
+  }
+
+  .containerBenefits {
+    margin-top: 0.7rem;
+    width: 100%;
+  }
+
+  .fstLineBenefits {
+    width: 75%;
+    height: 3.5rem;
+    flex-wrap: wrap;
+  }
+
+  .sndLineBenefits {
+    width: 95%;
+    flex-wrap: wrap;
+    height: 3.5rem;
+  }
+}
+
+/* celulares */
+@media (max-width: 767px) {
+  .boxBenefits {
+    height: 15rem;
+  }
+  .containerBenefits {
+    margin-top: 0.7rem;
+    width: 100%;
+  }
+
+  .containerBenefits h1 {
+    font-size: 24px;
+  }
+
+  .fstLineBenefits {
+    width: 75%;
+    height: 3.5rem;
+    flex-wrap: wrap;
+  }
+
+  .sndLineBenefits {
+    width: 95%;
+    flex-wrap: wrap;
+    height: 3.5rem;
+  }
+
+  .fstLineBenefits h2 {
+    font-size: 14px;
+  }
+
+  .sndLineBenefits h2 {
+    font-size: 14px;
+  }
+}

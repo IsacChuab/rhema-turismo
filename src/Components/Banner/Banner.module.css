@@ -1,0 +1,78 @@
+.boxBanner {
+    display: flex;
+    justify-content: center;
+    height: 32rem;
+    background-color: var(--background-theme);
+    max-width: 1600px;
+    width: 100%;
+}
+
+.containerBanner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 92%;
+}
+
+.bannerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.bannerText h1 {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.bannerText h2 {
+    color: var(--background-start);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 110%;
+    margin-bottom: 2rem;
+}
+
+.bannerImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 55%;
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .boxBanner {
+        height: 23rem;
+    }
+
+    .bannerText h1 {
+        font-size: 28px;
+    }
+
+    .bannerText h2 {
+        font-size: 22px;
+    }
+}
+
+/* celulares */
+@media (max-width: 767px) { 
+    .boxBanner {
+        height: 15rem;
+    }
+
+    .bannerText h1 {
+        font-size: 20px;
+    }
+
+    .bannerText h2 {
+        font-size: 14px;
+    }
+
+    .bannerText .test {
+        width: 10px;
+    }
+}

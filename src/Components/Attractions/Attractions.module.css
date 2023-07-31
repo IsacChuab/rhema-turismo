@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.boxAttractions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 90%;
+}
+
+.attractionsImagesBox {
+  height: 35.8rem;
+  padding: 1.5rem;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.07), 0px 15px 15px -3px rgba(0, 0, 0, 0.10);
+}
+
+.titleAttraction {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 22px;
+  font-family: Pacifico;
+  color: #000;
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) { 
+  .boxAttractions h1 {
+    font-size: 24px;
+  }
+
+  .content {
+    width: 92%;
+    justify-content: space-around;
+  }
+
+  .attractionsImagesBox {
+    padding: 0.5rem;
+    height: 30rem;
+    width: 31%;
+  }
+
+  .titleAttraction {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+/* celulares */
+@media (max-width: 767px) {
+  .boxAttractions h1 {
+    font-size: 24px;
+  }
+
+  .content {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .attractionsImagesBox {
+    padding: 1rem;
+    height: 30rem;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .titleAttraction {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+}

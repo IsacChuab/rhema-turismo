@@ -1,0 +1,100 @@
+.contactBox {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.containerContactBox {
+    display: flex;
+    width: 92%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactForm {
+    background-color: #FFF;
+    border-radius: 15px;
+    width: 40%;
+    padding: 2rem;
+}
+
+.contactForm label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.contactForm input {
+    margin-top: 5px;
+    border: 1px solid var(--background-theme);
+    border-radius: 10px;
+    outline: 0;
+    width: 100%;
+    padding: 0.4rem;
+}
+
+.contactForm input[type=checkbox] {
+    border: 1px solid var(--background-theme);
+    width: 30px;
+}
+
+.buttonContact {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactMessage {
+    height: 15rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contactMessage a {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contactMessage a:hover {
+    text-decoration: underline;
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .contactForm {
+        width: 55%;
+    }
+  }
+
+  /* celulares */
+@media (max-width: 767px) {
+    .contactBox {
+        margin-top: 1rem;
+    }
+
+    .containerContactBox {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 92%;
+    }
+
+    .contactForm {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .contactMessage {
+        width: 95%;
+        height: 10rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contactMessage h2 {
+        font-size: 24px;
+    }
+
+    .contactMessage h3 {
+        font-size: 14px;
+    }
+  }
