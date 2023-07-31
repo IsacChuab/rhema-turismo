@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './Galery.module.css';
-import fstPhoto from '../../../public/images/photo-3.jpg';
+import fstPhoto from '../../../public/images/photo-3.jpeg';
 import sndPhoto from '../../../public/images/photo-4.jpg';
 import { useMediaQueries } from '@/Hooks/MediaQuery';
 import { ModalGalery } from '../ModalGalery';

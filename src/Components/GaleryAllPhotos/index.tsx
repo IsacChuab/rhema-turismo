@@ -3,12 +3,14 @@ import styles from './GaleryAllPhotos.module.css';
 import { useMediaQueries } from '@/Hooks/MediaQuery';
 import photoOne from '../../../public/images/photo-1.jpg';
 import photoTwo from '../../../public/images/photo-2.jpg';
-import photoThree from '../../../public/images/photo-3.jpg';
+import photoThree from '../../../public/images/photo-3.jpeg';
 import photoFour from '../../../public/images/photo-4.jpg';
 import photoFive from '../../../public/images/photo-5.jpg';
 import photoSix from '../../../public/images/photo-6.jpg';
 import photoSeven from '../../../public/images/photo-7.jpg';
 import photoEight from '../../../public/images/photo-8.jpg';
+import photoNine from '../../../public/images/photo-9.jpeg';
+import photoTen from '../../../public/images/photo-10.jpeg';
 
 
 export const GaleryAllPhotos = () => {
@@ -22,7 +24,9 @@ export const GaleryAllPhotos = () => {
         { id: photoFive },
         { id: photoSix },
         { id: photoSeven },
-        { id: photoEight }
+        { id: photoEight },
+        { id: photoNine },
+        { id: photoTen }
     ];
 
     return (
