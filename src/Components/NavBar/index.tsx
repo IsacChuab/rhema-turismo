@@ -272,6 +272,22 @@ export const NavBar = () => {
                                     Contate-me
                                 </Link>
                             </MenuItem>
+
+                            <MenuItem>
+                                <Link 
+                                    activeClass='active' 
+                                    to='equip'
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-110}
+                                    duration={500}
+                                    style={{ 
+                                        cursor: 'pointer' 
+                                    }}
+                                >
+                                    Nossa Equipe
+                                </Link>
+                            </MenuItem>
                         </Menu>
                         
                         <WtsButton />
