@@ -18,7 +18,7 @@ export const Hotel = () => {
                     {!isMobile && !isTablet ? (
                         <Image 
                             src={hotelPhoto} 
-                            alt='nameHotel' 
+                            alt='Hotel em Isarel' 
                             width={800} 
                             height={510}
                             style={{
@@ -28,7 +28,7 @@ export const Hotel = () => {
                     ) : (
                         <Image 
                             src={hotelPhoto} 
-                            alt='nameHotel' 
+                            alt='Hotel em Isarel' 
                             style={{
                                 borderRadius: '15px',
                                 height: '320px',
@@ -65,7 +65,7 @@ export const Hotel = () => {
                     {!isMobile && !isTablet ? (
                         <Image 
                             src={gastronomy} 
-                            alt='nameHotel' 
+                            alt='Refeição em Israel' 
                             width={800} 
                             height={510}
                             style={{
@@ -75,7 +75,7 @@ export const Hotel = () => {
                     ) : (
                         <Image 
                             src={gastronomy} 
-                            alt='nameHotel' 
+                            alt='Refeição em Israel' 
                             style={{
                                 borderRadius: '15px',
                                 height: '320px',
@@ -90,7 +90,7 @@ export const Hotel = () => {
                         {!isMobile && !isTablet ? (
                             <Image 
                                 src={passport} 
-                                alt='nameHotel' 
+                                alt='Passagem para Israel' 
                                 width={205} 
                                 height={205}
                                 style={{borderRadius: '15px'}}
@@ -98,7 +98,7 @@ export const Hotel = () => {
                         ) : (
                             <Image 
                                 src={passport} 
-                                alt='nameHotel' 
+                                alt='Passagem para Israel' 
                                 style={{
                                     borderRadius: '15px',
                                     height: '150px',
@@ -120,7 +120,7 @@ export const Hotel = () => {
                         {!isMobile && !isTablet ? (
                                 <Image 
                                     src={tour} 
-                                    alt='nameHotel' 
+                                    alt='Tour em Israel' 
                                     width={205} 
                                     height={205}
                                     style={{borderRadius: '15px'}} 
@@ -128,7 +128,7 @@ export const Hotel = () => {
                             ) : (
                                 <Image 
                                     src={tour} 
-                                    alt='nameHotel' 
+                                    alt='Tour em Israel' 
                                     style={{
                                         borderRadius: '15px',
                                         height: '150px',

@@ -44,7 +44,7 @@ export const GaleryAllPhotos = () => {
                             key={i}
                             className={styles.img}
                             src={item.id} 
-                            alt='' 
+                            alt='Galeria de fotos' 
                             style={{ 
                                 borderRadius: '15px',
                                 height: '15.5rem',
@@ -55,7 +55,7 @@ export const GaleryAllPhotos = () => {
                         <Image
                             key={i}
                             src={item.id} 
-                            alt='' 
+                            alt='Galeria de fotos' 
                             style={{
                                 borderRadius: '15px',
                                 height: '375px',

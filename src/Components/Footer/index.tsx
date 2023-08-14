@@ -14,14 +14,14 @@ export const Footer = () => {
                     {!isMobile && !isTablet ? (
                         <Image 
                             src={rhemaTurismoLogo} 
-                            alt="Logo Rhema Turísmo" 
+                            alt="Rhema Turísmo" 
                             width={100} 
                             height={100} 
                         />
                     ) : (
                         <Image 
                             src={rhemaTurismoLogo} 
-                            alt="Logo Rhema Turísmo" 
+                            alt="Rhema Turísmo" 
                             width={80} 
                             height={80} 
                         />

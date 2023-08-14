@@ -36,7 +36,7 @@ export const Galery = () => {
                     <>
                         <Image 
                             src={fstPhoto} 
-                            alt='' 
+                            alt='Hotel em Israel' 
                             style={{ 
                                 borderRadius: '15px',
                                 width: '45%',
@@ -44,7 +44,7 @@ export const Galery = () => {
                         />
                         <Image 
                             src={sndPhoto} 
-                            alt='' 
+                            alt='Hotel em Israel' 
                             style={{ 
                                 borderRadius: '15px',
                                 width: '45%',
@@ -55,7 +55,7 @@ export const Galery = () => {
                     <>
                         <Image 
                             src={fstPhoto} 
-                            alt='' 
+                            alt='Israel' 
                             style={{
                                 borderRadius: '15px',
                                 height: '375px',
@@ -66,7 +66,7 @@ export const Galery = () => {
                         />
                         <Image 
                             src={sndPhoto} 
-                            alt='' 
+                            alt='Israel' 
                             style={{
                                 borderRadius: '15px',
                                 height: '375px',

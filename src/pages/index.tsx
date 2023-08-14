@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <header>
+      <header title='Israel'>
         <NavBar />
       </header>
       <div id='banner'>

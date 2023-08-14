@@ -58,7 +58,7 @@ export const Banner = () => {
                     {!isMobile ? (
                         <Image 
                             src={bannerImg} 
-                            alt="Logo Rhema Turísmo" 
+                            alt="Israel" 
                             width={600} height={600} 
                             style={{ borderRadius:'10px' }}
                             objectFit="cover"
@@ -66,7 +66,7 @@ export const Banner = () => {
                     ) : (
                         <Image 
                             src={bannerImg} 
-                            alt="Logo Rhema Turísmo" 
+                            alt="Israel" 
                             style={{ 
                                 borderRadius:'10px',
                                 width: '180px',

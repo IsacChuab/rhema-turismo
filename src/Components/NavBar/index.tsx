@@ -27,9 +27,9 @@ export const NavBar = () => {
             <div className={styles.contentTop}>
                 <div className='rhemaLogo'>
                 {!isMobile ? (
-                        <Image src={rhemaTurismoLogo} alt="Logo Rhema Turísmo" width={100} height={100} />
+                        <Image src={rhemaTurismoLogo} alt="Rhema Turismo" width={100} height={100} />
                 ) : (
-                        <Image src={rhemaTurismoLogo} alt="Logo Rhema Turísmo" width={50} height={50} />
+                        <Image src={rhemaTurismoLogo} alt="Rhema Turismo" width={50} height={50} />
                 )}
                 </div>
 
